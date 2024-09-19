@@ -1,0 +1,43 @@
+.logo{
+    font-size:27px;
+    font-weight:600;
+    color:rgb(47,141,70);
+}
+
+.searchbar,
+.logosec{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.searchbar input{
+    width: 250px; 
+height: 42px; 
+border-radius: 50px 0 0 50px; 
+background-color: var(--background-color3); 
+padding: 0 20px; 
+font-size: 15px; 
+outline: none; 
+border: none; 
+}
+
+.searchbtn { 
+    width: 50px; 
+    height: 42px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 0px 50px 50px 0px; 
+    background-color: var(--secondary-color); 
+    cursor: pointer; 
+    } 
+
+    .icn { 
+        height: 30px; 
+        } 
+
+.menuicn { 
+    cursor: pointer; 
+    } 
+
