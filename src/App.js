@@ -1,22 +1,21 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import Axios from 'axios';
+//App.js
+
+import React from 'react';
+import './styles.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 
 function App() {
-  //Setting up the initial state using the react hook "useState"
-  return(
+  return (
     <div>
-      <Header/>
-      <div className="main-container">
-      <Nav/>
-      <Main/>
+      <Header />
+      <div class="main-container">
+      <Nav />
+      <Main />
       </div>
     </div>
-  )
+  );
 }
-
 
 export default App;
